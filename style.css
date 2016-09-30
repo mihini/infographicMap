@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+svg{
+  margin-top:10px;
+  min-width: 1020px;
+  min-height: 660px;
+  /*border: 1px solid black;*/
+}
+.container-fluid{
+  margin-left: 40px;
+}
+.introText{
+  max-width: 800px;
+
+}
+p, h1{
+  color:#505050;
+
+}
+h1{
+  font-size: 2em;
+}
+
+.btn{
+  width:150px;
+}
+
+.intro{
+  font-size: 120%;
+}
+
+.land{
+  fill: #CCCCCC;
+  /*fill-opacity: 1;*/
+  stroke: #6c6c6c;
+  stroke-opacity: 1;
+  stroke-width:0.5;
+}
+/*Top 6 language families*/
+
+.indoColor{
+  fill: #f9e39f;
+}
+
+.sinoColor{
+  fill: #ffaf9b;
+}
+
+.austroColor{
+  fill: #e58588;
+
+}
+
+.afroColor{
+  fill: #b56181;
+
+}
+
+.transColor{
+  fill: #635975;
+}
+
+.nigerColor{
+  fill: #c4efa7;
+}
+
+/*Top 5 languages color countries*/
+.spanishColor{
+  fill:#ffb4a2;
+}
+
+.chineseColor{
+  fill:#ffcdb2;
+}
+
+.hindiColor{
+  fill:#b5838d;
+}
+
+.arabicColor{
+  fill:#6d6875;
+}
+
+.englishColor{
+  fill:#e5989b;
+}
+
+/*Popup info*/
+.countryInfo{
+  display: none;
+  position:absolute;
+  top:300px;
+  left: 300px;
+  background:#edebe6;
+  z-index:10;
+  padding: 10px;
+}
+
+
+/*Color of the language family list*/
+.langFam{
+  display:none;
+}
+.afroList{
+    background: #b56181;
+}
+
+.austroList{
+    background:#e58588;
+}
+
+.indoList{
+    background: #f9e39f;
+}
+
+.nigerList{
+    background: #c4efa7;
+}
+.sinoList{
+    background: #ffaf9b;
+}
+.transList{
+    background:  #635975;
+}
+
+
+/*Color of the top 5 language list*/
+.top5Lang{
+  display:none;
+}
+li{
+  list-style: none;
+  margin:0;
+}
+.square {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  width: 10px;
+  height: 10px;
+  position:relative;
+  border: 1px solid #303030;
+}
+.cn{
+    background: #ffcdb2;
+}
+
+.sp{
+    background: #ffb4a2;
+}
+
+.eng{
+    background: #e5989b;
+}
+
+.hin{
+    background: #b5838d;
+}
+.arb{
+    background: #6d6875;
+}
